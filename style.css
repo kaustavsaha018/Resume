@@ -1,0 +1,98 @@
+/* CSS Reset */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#navbar::before{
+    content: "";
+    background-color:blue;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+/* Navigation Bar Logo and Image */
+#logo{
+    margin: 10px 34px;
+}
+#logo img{
+    margin: 3px 6px;
+}
+/* Navigation Bar List styling */
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+    font-size: larger;
+}
+/* Home Section */
+/* Styling h-primary */
+.h-primary{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+/* Styling h-secondary */
+.h-secondary{
+    font-size: 1.8rem;
+    padding: 12px;
+}
+/* Styling other components */
+#Home p{
+    font-size: 1.3rem;
+    padding: 1px 12px;
+}
+#Home ul{
+    font-size: 1.3rem;
+    padding: 1px 30px;
+}
+/* About Me Section */
+#AboutMe p{
+    font-size: 1.3rem;
+    padding: 1px 12px;
+}
+.btn{
+    font-size: 1.1rem;
+    padding: 2px;
+    margin: 2px;
+    background-color: green;
+    
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(109, 167, 24);
+}
+/* Styling Educational Background */
+#Education table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+#Education th{
+    font-size: 1.1rem;
+}
