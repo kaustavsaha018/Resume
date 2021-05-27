@@ -54,8 +54,11 @@
 }
 /* Styling h-secondary */
 .h-secondary{
+    background-color: rgb(107, 211, 252);
     font-size: 1.8rem;
-    padding: 12px;
+    padding-left: 6px;
+    margin: 10px;
+    border-radius: 8px;
 }
 /* Styling other components */
 #Home p{
@@ -95,4 +98,9 @@
 }
 #Education th{
     font-size: 1.1rem;
+}
+/* Skills styling */
+#Skills p{
+    font-size: 1.3rem;
+    padding: 5px 12px;
 }
