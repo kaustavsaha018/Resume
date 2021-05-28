@@ -5,6 +5,7 @@
 #navbar ul li a{
     font-size: 1rem;
     padding: 0px 7px;
+    text-align: center;
 }
 #navbar ul li a:hover{
     font-size:medium;
@@ -13,4 +14,11 @@
 #Education table, th, td{
     margin-left: 5px;
     padding: 2px;
+}
+/* Certification Phone Optimization */
+.certifies{
+    flex-direction: column;
+}
+.certifies .box img{
+   height: 90px;
 }

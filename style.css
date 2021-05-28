@@ -104,3 +104,23 @@
     font-size: 1.3rem;
     padding: 5px 12px;
 }
+/* Styling Certifications */
+.certifies{
+    margin: 34px;
+    display: flex;
+}
+.certifies .box{
+    border: 2px solid rgb(4, 0, 255);
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 23px;
+}
+.certifies .box img{
+    height: 160px;
+    margin: auto;
+    display: block;
+}
+.certifies p{
+    text-align: center;
+    padding-top: 10px;
+}
