@@ -22,3 +22,11 @@
 .certifies .box img{
    height: 90px;
 }
+/* optimizing contacts */
+#socials{
+    flex-wrap: wrap;
+}
+#contactMe img{
+    height: 64px;
+    width: 64px;
+}

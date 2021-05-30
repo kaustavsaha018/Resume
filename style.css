@@ -124,3 +124,15 @@
     text-align: center;
     padding-top: 10px;
 }
+/* Styling the contact me section */
+#socials{
+    display: flex;
+    align-items: center;
+}
+#contactMe img{
+    height: 72px;
+    width: 72px;
+}
+.handles{
+    padding: 20px;
+}
